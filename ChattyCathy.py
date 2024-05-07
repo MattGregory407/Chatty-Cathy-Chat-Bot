@@ -174,13 +174,14 @@ def nltk_chatbot():
         break
 
     else: 
-        
+
 # Search wikipedia for answers
 
         wikipedia_response = search_wikipedia(user_input)
         if wikipedia_resposne: 
             print("Here's what I found:", wikipedia_response)
-    else:
+        else:
+    
     wikipedia_response = search_wikipedia(user_input)
     if wikipedia_response:
         print("Here's what I found: ", wikipedia_response)
