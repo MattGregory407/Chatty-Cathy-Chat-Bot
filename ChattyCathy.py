@@ -187,7 +187,7 @@ def nltk_chatbot():
         print("Here's what I found: ", wikipedia_response)
     else:
 
-        # If Wikipedia doesn't have an answer, revert back to nltk chatbot responses.
+# If Wikipedia doesn't have an answer, revert back to nltk chatbot responses.
 
         response = chatbot.respond(user_input)
         print("Chatty Cathy: ", response)
