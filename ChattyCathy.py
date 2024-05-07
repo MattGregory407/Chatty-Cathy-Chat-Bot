@@ -178,7 +178,7 @@ def nltk_chatbot():
 # Search wikipedia for answers
 
         wikipedia_response = search_wikipedia(user_input)
-        if wikipedia_resposne: 
+        if wikipedia_response: 
             print("Here's what I found:", wikipedia_response)
         else:
     
